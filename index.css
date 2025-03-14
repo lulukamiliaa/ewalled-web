@@ -1,0 +1,132 @@
+.nav-link {
+    padding: 35px;
+    font-size: 16px;
+}
+
+.vl {
+    border-left: 5px solid black;
+    height: 200px;
+}
+
+.sun-image {
+    width:"26px";
+    height:"26px";
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #0061FF;
+}
+
+nav {
+    background-color: white;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    padding: 0 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.middle {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: 40px;
+    gap: 40px
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.sub-profile {
+    text-align: end;
+    padding-right: 20px;
+}
+
+.photo {
+    display: flex;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid #0061FF;
+    width: 75px;
+}
+
+.desktop-only {
+    color: black;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 0 0 15px;
+}
+
+.sub-title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.account {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.account-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0061FF;
+    border-radius: 20px;
+    flex-direction: column;
+    flex:1;
+    color: white;
+}
+
+.account-title {
+
+}
+
+.account-num {
+
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    /* height: 170px;
+    width: 100%; */
+    background-color: #0061FF;
+    border-radius: 20px;
+    flex:6
+}
+
+* {
+    margin: 0;
+}
+
